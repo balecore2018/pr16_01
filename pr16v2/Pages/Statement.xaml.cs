@@ -13,21 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace pr16v2
+namespace pr16v2.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Statement.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Statement : Page
     {
-        public MainWindow()
+        public Statement()
         {
             InitializeComponent();
-        }
-
-        private void Frame_Navigated(object sender, NavigationEventArgs e)
-        {
-
         }
     }
 }
